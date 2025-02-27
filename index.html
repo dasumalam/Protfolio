@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-black">
+  <header class="flex items-center justify-between mt-10">
+
+    <nav class="  flex flex-col align-items-center  gap-5 justify-evenly bg-white p-7 rounded-md text-black  font-medium text-xl position-fixed scroll-smooth opacity-0 md:flex-row md:w-full md:bg-transparent md:text-stone-300 md:opacity-100">
+
+      <a href="#home-page" class="hover:text-stone-400 hover:underline hover:underline-offset-[8px]">Home</a>
+      <a href="#about" class="hover:text-stone-400 hover:underline hover:underline-offset-[8px]">About</a>
+      <a href="#skills" class="hover:text-stone-400 hover:underline hover:underline-offset-[8px]">Skills</a>
+      <a href="#project" class="hover:text-stone-400 hover:underline hover:underline-offset-[8px]">Project</a>
+      <a href="#contact" class="hover:text-stone-400 hover:underline hover:underline-offset-[8px]">contact</a>
+   
+    </nav>
+    <i class="fa-solid fa-bars text-white p-7 md:hidden " id="sidebar"></i>
+
+  
+  </header>
+
+  <!-- home-section -->
+
+  <div class="flex justify-center flex-col items-center" id="home-page">
+    <h1 class="text-5xl text-stone-300 mt-36 hover:text-stone-500">
+      Hii,I am Darshna
+    </h1>
+    <h4 class="text-2xl mt-3 text-stone-300 hover:text-stone-500">
+      A Web Developer in training.
+    </h4>
+    <a href="Darshna_Malam.pdf" target="_blank"
+      class="text-stone-200 mt-10 bg-stone-600 py-1.5 px-4 rounded-md active:scale-90 hover:bg-stone-700">RESUME
+      <span><i class="fa-regular fa-file text-xl ml-2 text-orange-400"></i></span></a>
+  </div>
+  <hr class="mt-44" />
+
+  <!-- about-section -->
+
+  <div id="about">
+    <a href="#">
+      About
+      <h1 class="text-4xl text-orange-400 flex justify-center">About</h1>
+    </a>
+    <div class="self-intro mt-24 text-stone-400 flex justify-evenly items-center">
+      <div class="profile  flex flex-col gap-8 items-center">
+        <img src="https://t3.ftcdn.net/jpg/07/06/10/62/360_F_706106273_azeLKRtE7CHga5JjHNfWAbgr4IkhEuwD.jpg"
+          class="h-36 w-36 rounded-full " alt="" />
+        <p class=" lg:text-lg lg:w-[450px] sm:text-sm sm:w-56">
+          I'm a self taught web developer,and currently
+          learning UX/UI course From tops technology,rajkot.
+          I completed Bachelor of computer application (bca) student.
+          I consider myself as a responsible and orderly person.
+          I am looking forward to my first work experience.
+        </p>
+      </div>
+      <div class="study  flex flex-col gap-6">
+        <h1 class="text-3xl text-orange-300 hover:text-orange-500">
+          University Degrees
+        </h1>
+        <h4>
+          Bachelor of Application Computer<br />
+          ( 2021-2024 )
+        </h4>
+        <h1 class="text-3xl text-orange-300 hover:text-orange-500 mt-10">
+          Certification
+        </h1>
+
+        <h> Web Designing </br> ( pursuing ) </h2>
+      </div>
+    </div>
+  </div>
+  <hr class="mt-20" />
+
+  <!-- skill-section -->
+
+  <div class="text-stone-400 flex flex-col mt-5" id="skills">
+    <a href="#">
+      <h1 class="text-4xl text-orange-400 text-center mt-2">Skill</h1>
+    </a>
+
+    <div class="wrapper flex justify-center sm: flex-wrap md:gap-7 lg:gap-12 xl:gap-24 ">
+      <div class="sklii  ml-[15%] mt-14 flex flex-col gap-2 sm:ml-0 sm:items-center  md:items-start">
+        <h1 class=" lg:text-3xl mt-2 mb-5 sm:text-2xl">Web Development </h1>
+        <span class="flex gap-4 items-center md:gap-2">
+          <h1 class=" lg:text-2xl text-stone-500 sm:text-lg">Programming Skills :- </h1>
+          <h2 class="text-stone-300 lg:text-lg sm:text-sm">HTML, CSS, JavaScript</h2>
+        </span>
+        <span class="flex gap-4 items-center md:gap-2">
+          <h1 class=" lg:text-2xl text-stone-500 sm:text-lg">Libraries :- </h1>
+          <h2 class="text-stone-300 lg:text-lg sm:text-sm">Tailwind, Bootstrap, Jquery </h2>
+        </span>
+        <span class="flex gap-4 items-center md:gap-2">
+          <h1 class=" lg:text-2xl text-stone-500 sm:text-lg">Version Control :- </h1>
+          <h2 class="text-stone-300 lg:text-lg sm:text-sm"> Git, Github </h2>
+        </span>
+        <span class="flex gap-4 items-center md:gap-2">
+          <h1 class=" lg:text-2xl text-stone-500 sm:text-lg">Preprocessor :- </h1>
+          <h2 class="text-stone-300 lg:text-lg sm:text-sm">Scss, Sass, Less </h2>
+        </span>
+        <span class="flex gap-4 items-center md:gap-2">
+          <h1 class=" lg:text-2xl text-stone-500 sm:text-lg">Operating systems :- </h1>
+          <h2 class="text-stone-300 lg:text-lg sm:text-sm">Windows, Linux </h2>
+        </span>
+        <span class="flex gap-4 items-center md:gap-2">
+          <h1 class=" lg:text-2xl text-stone-500 sm:text-lg">Software Tool :- </h1>
+          <h2 class="text-stone-300 lg:text-lg sm:text-sm"> Visual Studio Code </h2>
+        </span>
+      </div>
+
+      <div class="sklii  ml-[15%] mt-14 flex flex-col gap-2 sm:items-center  sm:ml-0 md:items-start">
+        <h1 class="lg:text-3xl mt-2 mb-5 sm:text-2xl">Designing</h1>
+        <span class="flex gap-4 items-center md:gap-2">
+          <h1 class=" lg:text-2xl text-stone-500 sm:text-lg"> Designing Tools & Software :- </h1>
+          <h2 class="text-stone-300 lg:text-lg sm:text-sm">Adobe Photoshop, Adobe XD, Figama</h2>
+        </span>
+      </div>
+    </div>
+
+    </div>
+    <hr class="mt-20" />
+
+    <!-- project-section -->
+
+    <div class="project text-stone-300" id="project">
+      <a href="#">
+        <h1 class="text-4xl text-orange-400 flex justify-center mt-5">Project</h1>
+      </a>
+      
+      <h1 class="text-4xl text-stone-500 flex justify-center mt-14">Web Development</h1>
+        <div class="projects flex flex-wrap gap-7 justify-evenly mt-10">
+          <div class="project flex flex-col items-center">
+            <img src="images/Taylor-Taylor-website.png" alt="" class="h-44 w-60 object-cover">
+            <button
+              class=" active:scale-90 border rounded-2xl text-green-200 px-3 py-1 mt-2 hover:bg-green-200 hover:text-black ">
+              Taylor-Taylor-website
+            </button>
+            <h2 class="text-center mt-2">Using  HTML, TailwindCSS, JS</h2>
+          </div>
+          <div class="project flex flex-col items-center">
+            <a href="https://dasumalam.github.io/Atmiya-Univercity/" target="_blank"><img src="images/Atmiya-University .png" alt="" class="h-44 w-60 object-cover"></a>
+            <button
+              class=" active:scale-90 border rounded-2xl text-green-200 px-3 py-1 mt-2  hover:bg-green-200 hover:text-black ">
+              Atmiya University Landing Page </button>
+            <h2 class="text-center mt-2">Using  HTML, CSS, JS</h2>
+          </div>
+          <div class="project flex flex-col items-center">
+            <a href="https://dasumalam.github.io/art-gallery-Landigpage/" target="_blank">
+            <img src="images/Art-Gallery.png" alt="" class="h-44 w-60 object-cover"></a>
+            <button
+              class=" active:scale-90 border rounded-2xl text-green-200 px-3 py-1 mt-2  hover:bg-green-200 hover:text-black ">
+              Art Gallery Website Landing Page
+            </button>
+            <h2 class="text-center mt-2">Using HTML, CSS</h2>
+          </div>
+          </div>
+
+
+          <h1 class="text-4xl text-stone-500 flex justify-center mt-14">Designing</h1>       
+          <div class="projects flex flex-wrap gap-7 justify-evenly mt-10">
+          <div class="project flex flex-col items-center">
+            <img src="images/Fresh-Milk.jpg" alt="" class="h-52 w-40 ">
+            <button
+              class=" active:scale-90 border rounded-2xl text-green-200 px-3 py-1 mt-2  hover:bg-green-200 hover:text-black ">
+              Fresh Milk
+            </button>
+            <h2 class="text-center mt-2">Using Figma</h2>
+          </div>
+          <div class="project flex flex-col items-center">
+            <img src="images/GlowUp.jpg" alt="" class="h-52 w-40 ">
+            <button
+              class=" active:scale-90 border rounded-2xl text-green-200 px-3 py-1 mt-2  hover:bg-green-200 hover:text-black ">
+              GlowUp
+            </button>
+            <h2 class="text-center mt-2">Using XD</h2>
+          </div>
+          <div class="project flex flex-col items-center">
+            <img src="images/ProNet.jpg" alt="" class="h-52 w-40 ">
+            <button
+              class=" active:scale-90 border rounded-2xl text-green-200 px-3 py-1 mt-2  hover:bg-green-200 hover:text-black ">
+             ProNet
+            </button>
+            <h2 class="text-center mt-2">Using Figma</h2>
+          
+
+        
+      </div>
+    </div>
+    </div>
+    
+    <hr class="mt-24" />
+
+    <!-- Contact-section -->
+
+    <a href="#">
+      <h1 class="text-4xl text-orange-400 flex justify-center mt-5" id="contact">Contact</h1>
+    </a>
+    <div class="contact  text-stone-300 text-3xl flex justify-evenly mt-28 mb-28">
+      <a href="https://www.linkedin.com/in/darshna-malam"><i
+          class="fa-brands fa-linkedin text-blue-500 hover:scale-125"></i></a>
+      <a href="https://github.com/dasumalam"><i class="fa-brands fa-github hover:scale-125"></i> </a>
+      <a href="Darshna_Malam.pdf" target="_blank"><i class="fa-regular fa-file  text-orange-300 hover:scale-125"></i></a>
+      <a href=""> <i class="fa-solid fa-phone text-green-400 hover:scale-125"></i></a>
+      <a href="mailto:darshnamalam22@gmail.com"> <i class="fa-regular fa-envelope text-yellow-600 hover:scale-125"></i></a>
+    </div>
+  
+<script src="script.js"></script>
+</body>
+
+</html>
